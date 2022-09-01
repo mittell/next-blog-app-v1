@@ -4,7 +4,7 @@ A Blog App built with Next.js and GraphQL.
 
 ## Demo
 
-[Link]()
+[Link](https://zingy-valkyrie-874a41.netlify.app)
 
 ## Getting Started
 
