@@ -1,6 +1,6 @@
 import styles from '../../styles/Slug.module.css';
 import { GraphQLClient, gql } from 'graphql-request';
-import moment from "moment";
+import moment from 'moment';
 
 const graphcms = new GraphQLClient(
 	'https://api-ap-northeast-1.hygraph.com/v2/cl7ikj3mu1wy901t96pjqhayy/master'
@@ -56,7 +56,7 @@ export async function getStaticProps({ params }) {
 		props: {
 			post,
 		},
-		revalidate: 3600,
+		revalidate: 300,
 	};
 }
 
